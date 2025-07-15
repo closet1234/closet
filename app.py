@@ -134,7 +134,7 @@ st.sidebar.title("🧣CLOSET")
 # ✅ 내 캐릭터 프로필
 
 try:
-    logo_image = Image.open("logo.jpg")
+    logo_image = Image.open("images/logo.jpg")
     st.sidebar.image(logo_image, caption="CLOSET", use_container_width=True)
 except:
     st.sidebar.warning("⚠️ 로고 이미지를 불러올 수 없습니다.")
